@@ -1,0 +1,69 @@
+@startuml
+' PlantUML class diagram for Excusas Sharks models
+' Generated: 2025-11-19
+
+skinparam classAttributeIconSize 0
+
+package "javasharks.excusas_challenge.model" {
+
+  class Fragment {
+    +Long id
+    +FragmentType tipo
+    +String texto
+    +String role
+  }
+
+  enum FragmentType {
+    CONTEXTO
+    CAUSA
+    CONSECUENCIA
+    RECOMENDACION
+  }
+
+  class Meme {
+    +Long id
+    +String nombre
+    +String referencia
+    +String role
+  }
+
+  class Ley {
+    +Long id
+    +String fuente
+    +String texto
+    +String role
+  }
+
+  class Rol {
+    +Long id
+    +String nombre
+  }
+
+}
+
+' Notes about persistence / Lombok
+note right of Fragment
+  - Anotaciones JPA: @Entity, @Table(name = "fragments")
+  - Lombok: @Data, @Builder, @NoArgsConstructor, @AllArgsConstructor
+end note
+
+note right of Meme
+  - Anotaciones JPA: @Entity, @Table(name = "memes")
+  - Lombok: @Data, @Builder
+end note
+
+note right of Ley
+  - Anotaciones JPA: @Entity, @Table(name = "leyes")
+end note
+
+note right of Rol
+  - Anotaciones JPA: @Entity, @Table(name = "roles")
+end note
+
+' Relationships (in code fields are simple strings; model shows possible logical associations)
+Fragment ..> FragmentType : tipo
+Fragment "0..*" --> "0..1" Meme : puede asociar (lógico)
+Fragment "0..*" --> "0..1" Ley : puede asociar (lógico)
+
+@enduml
+

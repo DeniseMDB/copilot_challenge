@@ -76,6 +76,23 @@ Usa los JSON en `docs/json/` para precargar datos (memes, leyes, fragmentos) med
 ## PlantUML
 Diagrama(s) PlantUML en `docs/plantuml/` — hay un script `scripts/generate-plantuml.ps1` para generar imágenes si tienes Java o Docker.
 
+## Docker
+Se incluye un `Dockerfile` multi-stage en la raíz para construir y ejecutar la aplicación.
+
+- Construir la imagen (desde la raíz del proyecto):
+
+```powershell
+docker build -t excusas-sharks:latest .
+```
+
+- Ejecutar el contenedor exponiendo el puerto 8080:
+
+```powershell
+docker run --rm -p 8080:8080 excusas-sharks:latest
+```
+
+Nota: el Dockerfile usa Maven en la etapa de build y un runtime de Java 17 en la etapa final. En CI puedes omitir `-DskipTests` para ejecutar tests durante la construcción.
+
 ## Contribuir
 1. Fork
 2. Crear branch: `git checkout -b feature/mi-cambio`
@@ -83,4 +100,3 @@ Diagrama(s) PlantUML en `docs/plantuml/` — hay un script `scripts/generate-pla
 4. Abrir PR
 
 ---
-
