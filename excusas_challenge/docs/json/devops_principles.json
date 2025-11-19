@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "source": "DevOpsPrinciple",
+    "text": "Si automatizás un proceso malo, solo obtenés un proceso malo más rápido.",
+    "tags": [
+      "automacion",
+      "cicd",
+      "procesos"
+    ],
+    "role": "devops"
+  },
+  {
+    "id": 2,
+    "source": "DevOpsPrinciple",
+    "text": "No existe 'mi máquina'. Existe 'infra como código', hermano.",
+    "tags": [
+      "infra",
+      "iac",
+      "nubes",
+      "terraform"
+    ],
+    "role": "dev"
+  },
+  {
+    "id": 3,
+    "source": "DevOpsPrinciple",
+    "text": "Si un deploy falla, recordá: el pipeline tiene sentimientos.",
+    "tags": [
+      "deploy",
+      "pipeline",
+      "fallas",
+      "friday deploy"
+    ],
+    "role": "devops"
+  },
+  {
+    "id": 4,
+    "source": "DevOpsPrinciple",
+    "text": "Logs, métricas y trazas: sin eso no hay postmortem, solo historias de terror.",
+    "tags": [
+      "observabilidad",
+      "logs",
+      "metrics",
+      "tracing"
+    ],
+    "role": "sre"
+  },
+  {
+    "id": 5,
+    "source": "DevOpsPrinciple",
+    "text": "Todo funciona hasta que un viernes a las 18 alguien toca el pipeline.",
+    "tags": [
+      "viernes",
+      "deploy",
+      "fallas"
+    ],
+    "role": "devops"
+  },
+  {
+    "id": 6,
+    "source": "DevOpsPrinciple",
+    "text": "Infra estable es aquella que se rompe siempre de la misma forma.",
+    "tags": [
+      "infra",
+      "cicd",
+      "estabilidad"
+    ],
+    "role": "sre"
+  }
+]

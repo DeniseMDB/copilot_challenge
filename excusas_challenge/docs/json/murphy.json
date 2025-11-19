@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "text": "Si algo puede fallar en producción, va a fallar justo después de que te vayas a tu casa.",
+    "tags": ["murphy", "prod", "oncall"]
+  },
+  {
+    "id": 2,
+    "text": "El bug más grave siempre aparece cinco minutos después de decir 'ya está, lo tenemos'.",
+    "tags": ["murphy", "bugs"]
+  },
+  {
+    "id": 3,
+    "text": "Si hay dos maneras de configurar el YAML y una rompe el deploy, el YAML va a elegir esa.",
+    "tags": ["murphy", "yaml", "deploy"]
+  },
+  {
+    "id": 4,
+    "text": "Cuanto más urgente es el hotfix, más lento se ejecutan los tests.",
+    "tags": ["murphy", "tests", "ci"]
+  },
+  {
+    "id": 5,
+    "text": "La demo solo funciona perfecto cuando nadie importante la está mirando.",
+    "tags": ["murphy", "demo"]
+  },
+  {
+    "id": 6,
+    "text": "Si el deploy es tranquilo, es porque el problema todavía no se notó.",
+    "tags": ["murphy", "deploy", "incidentes"]
+  },
+  {
+    "id": 7,
+    "text": "El log que necesitás para entender el error es justo el que no se está guardando.",
+    "tags": ["murphy", "logs"]
+  },
+  {
+    "id": 8,
+    "text": "El servidor nunca se cae mientras estás mirando el dashboard, solo cuando lo cerrás.",
+    "tags": ["murphy", "monitoring"]
+  },
+  {
+    "id": 9,
+    "text": "Si algo anda raro pero funciona, después va a dejar de funcionar sin dejar rastro.",
+    "tags": ["murphy", "heisenbug"]
+  },
+  {
+    "id": 10,
+    "text": "La única vez que corrés los tests locales es cuando ya rompiste el pipeline.",
+    "tags": ["murphy", "tests", "ci"]
+  },
+  {
+    "id": 11,
+    "text": "Los bugs críticos solo aparecen en la única parte del sistema sin cobertura de tests.",
+    "tags": ["murphy", "tests", "bugs"]
+  },
+  {
+    "id": 12,
+    "text": "Si el backup es importante, alguien se va a olvidar de probar la restauración.",
+    "tags": ["murphy", "backup"]
+  },
+  {
+    "id": 13,
+    "text": "Cada vez que digas 'es un cambio pequeño', el diff va a tener más de 500 líneas.",
+    "tags": ["murphy", "pull-request"]
+  },
+  {
+    "id": 14,
+    "text": "La fecha límite nunca se mueve, excepto para acercarse.",
+    "tags": ["murphy", "deadlines"]
+  },
+  {
+    "id": 15,
+    "text": "El bug jamás se reproduce cuando estás compartiendo pantalla.",
+    "tags": ["murphy", "bugs", "reuniones"]
+  },
+  {
+    "id": 16,
+    "text": "Si algo funciona en tu máquina, no va a funcionar en la del resto del equipo.",
+    "tags": ["murphy", "env", "works-on-my-machine"]
+  },
+  {
+    "id": 17,
+    "text": "Cuanto más urgente es el incidente, más lento responde el VPN.",
+    "tags": ["murphy", "vpn", "incidentes"]
+  },
+  {
+    "id": 18,
+    "text": "El microservicio que nunca documentaron es el que tiene la lógica más crítica.",
+    "tags": ["murphy", "microservices", "docs"]
+  },
+  {
+    "id": 19,
+    "text": "Si hay dos caminos en producción, el tráfico va a ir siempre por el que no monitoreaste.",
+    "tags": ["murphy", "routing", "monitoring"]
+  },
+  {
+    "id": 20,
+    "text": "La rama de emergencia siempre nace del commit equivocado.",
+    "tags": ["murphy", "git", "branches"]
+  },
+  {
+    "id": 21,
+    "text": "El único día que no mirás los alerts es cuando realmente avisaban algo importante.",
+    "tags": ["murphy", "alerts", "monitoring"]
+  },
+  {
+    "id": 22,
+    "text": "Si asumís que algo es 'obvio', va a ser malinterpretado por todos.",
+    "tags": ["murphy", "comunicacion"]
+  },
+  {
+    "id": 23,
+    "text": "La dependencia que no quisiste actualizar es la que después tiene la vulnerabilidad crítica.",
+    "tags": ["murphy", "dependencies", "security"]
+  },
+  {
+    "id": 24,
+    "text": "Cada workaround temporal tiene vocación de volverse definitivo.",
+    "tags": ["murphy", "workaround"]
+  },
+  {
+    "id": 25,
+    "text": "Si un feature no está claramente definido, todos van a implementar algo distinto en su cabeza.",
+    "tags": ["murphy", "requisitos"]
+  },
+  {
+    "id": 26,
+    "text": "Los bugs más serios se esconden detrás de mensajes de error genéricos.",
+    "tags": ["murphy", "errores"]
+  },
+  {
+    "id": 27,
+    "text": "Si el correo con el detalle del incidente es largo, nadie lo va a leer.",
+    "tags": ["murphy", "postmortem"]
+  },
+  {
+    "id": 28,
+    "text": "La configuración que probaste mil veces en dev va a fallar igual en prod.",
+    "tags": ["murphy", "config", "prod"]
+  },
+  {
+    "id": 29,
+    "text": "Cuanto más simple parece el cambio, más deploys va a terminar necesitando.",
+    "tags": ["murphy", "deploy"]
+  },
+  {
+    "id": 30,
+    "text": "El día que todo anda perfecto es el día que el logging estaba deshabilitado.",
+    "tags": ["murphy", "logging"]
+  },
+  {
+    "id": 31,
+    "text": "La única métrica que olvidaste monitorear es la que explota primero.",
+    "tags": ["murphy", "metrics"]
+  },
+  {
+    "id": 32,
+    "text": "El feature 'provisorio' siempre sobrevive más que el sistema original.",
+    "tags": ["murphy", "legacy"]
+  },
+  {
+    "id": 33,
+    "text": "Si hay una API sin rate limit, alguien la va a usar como si fuera gratis e infinita.",
+    "tags": ["murphy", "api", "rate-limit"]
+  },
+  {
+    "id": 34,
+    "text": "Cuanto más grande es la reunión, menos claro sale el plan.",
+    "tags": ["murphy", "reuniones"]
+  },
+  {
+    "id": 35,
+    "text": "El único día que necesitás silencio, empiezan las obras en el edificio.",
+    "tags": ["murphy", "remoto"]
+  },
+  {
+    "id": 36,
+    "text": "El ambiente de 'testing' siempre es el menos parecido a producción.",
+    "tags": ["murphy", "env", "testing"]
+  },
+  {
+    "id": 37,
+    "text": "El bug crítico aparece justo después de decir 'dejamos esto para mañana'.",
+    "tags": ["murphy", "bugs", "timing"]
+  },
+  {
+    "id": 38,
+    "text": "Si algo depende de una persona, esa persona va a estar de vacaciones cuando se rompa.",
+    "tags": ["murphy", "bus-factor"]
+  },
+  {
+    "id": 39,
+    "text": "Los tickets más vagos son los que terminan llevando más tiempo.",
+    "tags": ["murphy", "tickets"]
+  },
+  {
+    "id": 40,
+    "text": "El sistema nunca se cae durante el horario de oficina, solo de madrugada o en feriados.",
+    "tags": ["murphy", "incidentes", "horarios"]
+  }
+]

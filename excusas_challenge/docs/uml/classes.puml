@@ -1,0 +1,96 @@
+@startuml
+' Diagrama de clases para Excusas Tech API
+' Ubicación: /docs/uml/classes.puml
+
+package "model" {
+  class Fragment <<Entity>> {
+    +Long id
+    +FragmentType tipo
+    +String texto
+  }
+
+  enum FragmentType {
+    CONTEXTO
+    CAUSA
+    CONSECUENCIA
+    RECOMENDACION
+  }
+
+  class Meme <<Entity>> {
+    +Long id
+    +String nombre
+    +String referencia // url o descripción
+  }
+
+  class Ley <<Entity>> {
+    +Long id
+    +String fuente
+    +String texto
+  }
+
+  class Rol <<Entity>> {
+    +Long id
+    +String nombre
+  }
+
+  class Excusa {
+    +Fragment contexto
+    +Fragment causa
+    +Fragment consecuencia
+    +Fragment recomendacion
+    +Meme meme
+    +Ley ley
+  }
+}
+
+package "repository" {
+  interface FragmentRepository <<Repository>>
+  interface MemeRepository <<Repository>>
+  interface LeyRepository <<Repository>>
+  interface RolRepository <<Repository>>
+}
+
+package "service" {
+  class FragmentService
+  class ExcuseService
+  class MemeService
+  class LeyService
+  class RolService
+}
+
+package "controller" {
+  class FragmentController
+  class ExcuseController
+  class MemeController
+  class LeyController
+  class RolController
+}
+
+' Relaciones básicas
+FragmentService --> FragmentRepository : uses
+MemeService --> MemeRepository : uses
+LeyService --> LeyRepository : uses
+RolService --> RolRepository : uses
+
+FragmentController --> FragmentService : uses
+MemeController --> MemeService : uses
+LeyController --> LeyService : uses
+RolController --> RolService : uses
+ExcuseController --> ExcuseService : uses
+
+' Composición / agregación
+Excusa o-- "1" Fragment : contexto
+Excusa o-- "1" Fragment : causa
+Excusa o-- "1" Fragment : consecuencia
+Excusa o-- "1" Fragment : recomendacion
+Excusa o-- "0..1" Meme : meme
+Excusa o-- "0..1" Ley : ley
+
+' Notas / sugerencias
+note right of ExcuseService
+  - método: Excusa generarRandom(seed)
+  - método: Excusa generarPorRol(rol, seed)
+  - método: Excusa generarUltra()
+end note
+
+@enduml

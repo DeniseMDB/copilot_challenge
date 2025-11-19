@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "source": "DevAxiom",
+    "text": "Si funciona, no lo toques. Si no funciona, tampoco, porque seguro lo rompés más.",
+    "tags": [
+      "bugs",
+      "refactor",
+      "miedo"
+    ],
+    "role": "dev"
+  },
+  {
+    "id": 2,
+    "source": "DevAxiom",
+    "text": "Todo bug crítico aparece justo después de decir ‘ya está listo’.",
+    "tags": [
+      "bugs",
+      "deploy",
+      "karma"
+    ],
+    "role": "dev"
+  },
+  {
+    "id": 3,
+    "source": "DevAxiom",
+    "text": "Mientras más urgente sea el fix, más difícil será reproducir el problema.",
+    "tags": [
+      "bugs",
+      "urgencia",
+      "debug"
+    ],
+    "role": "dev"
+  },
+  {
+    "id": 4,
+    "source": "DevAxiom",
+    "text": "El código que escribiste hace seis meses lo escribió un desconocido con tus accesos.",
+    "tags": [
+      "legacy",
+      "misterio",
+      "autor"
+    ],
+    "role": "dev"
+  },
+  {
+    "id": 5,
+    "source": "DevAxiom",
+    "text": "Un print de debugging puesto 'por las dudas' dura en producción para siempre.",
+    "tags": [
+      "debug",
+      "logs",
+      "legacy"
+    ],
+    "role": "devops"
+  },
+  {
+    "id": 6,
+    "source": "DevAxiom",
+    "text": "Cualquier workaround temporal se convierte en arquitectura oficial.",
+    "tags": [
+      "workaround",
+      "arquitectura",
+      "patches"
+    ],
+    "role": "pm"
+  }
+]

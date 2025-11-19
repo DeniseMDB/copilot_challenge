@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "text": "Nuestro proceso es tan complejo que nadie lo entiende, pero igual le echamos la culpa al desarrollador.",
+    "tags": ["oficina", "proceso", "humor"]
+  },
+  {
+    "id": 2,
+    "text": "Si el proyecto sale bien, fue visión del management; si sale mal, claramente fue culpa del equipo técnico.",
+    "tags": ["oficina", "management"]
+  },
+  {
+    "id": 3,
+    "text": "En cada reunión hay alguien que no sabe por qué está ahí, pero toma nota igual.",
+    "tags": ["oficina", "reuniones"]
+  },
+  {
+    "id": 4,
+    "text": "Nada dice 'innovación' como aprobar un cambio después de seis comités distintos.",
+    "tags": ["oficina", "burocracia"]
+  },
+  {
+    "id": 5,
+    "text": "El jefe siempre pregunta el estado del ticket que nadie quería agarrar.",
+    "tags": ["oficina", "jefe", "tickets"]
+  },
+  {
+    "id": 6,
+    "text": "La solución favorita del management es 'háganlo más rápido, pero sin cambiar nada'.",
+    "tags": ["oficina", "management", "plazos"]
+  },
+  {
+    "id": 7,
+    "text": "Si un dashboard muestra algo que no gusta, la prioridad es cambiar el dashboard, no el problema.",
+    "tags": ["oficina", "metrics"]
+  },
+  {
+    "id": 8,
+    "text": "En el PowerPoint todo entra en una flechita, en producción son quince microservicios y tres colas.",
+    "tags": ["oficina", "arquitectura"]
+  },
+  {
+    "id": 9,
+    "text": "Nadie lee la documentación, pero todos están de acuerdo en que 'falta documentación'.",
+    "tags": ["oficina", "documentacion"]
+  },
+  {
+    "id": 10,
+    "text": "La palabra 'rápido' en boca del negocio siempre significa 'para ayer'.",
+    "tags": ["oficina", "negocio"]
+  },
+  {
+    "id": 11,
+    "text": "El plan del proyecto es perfecto hasta que aparece la realidad.",
+    "tags": ["oficina", "planificacion"]
+  },
+  {
+    "id": 12,
+    "text": "El mail con más destinatarios es siempre el que menos gente entiende.",
+    "tags": ["oficina", "comunicacion"]
+  },
+  {
+    "id": 13,
+    "text": "La mitad de las reuniones podría ser un comentario en el ticket, pero acá nos gusta el calendario lleno.",
+    "tags": ["oficina", "reuniones"]
+  },
+  {
+    "id": 14,
+    "text": "La forma más rápida de que algo sea urgente es ignorarlo durante semanas.",
+    "tags": ["oficina", "prioridades"]
+  },
+  {
+    "id": 15,
+    "text": "Siempre hay un Excel en las sombras administrando el sistema que juramos haber automatizado.",
+    "tags": ["oficina", "excel", "legacy"]
+  },
+  {
+    "id": 16,
+    "text": "Cuando alguien dice 'es solo un cambio de texto', en realidad es un cambio de flujo entero.",
+    "tags": ["oficina", "cambios"]
+  },
+  {
+    "id": 17,
+    "text": "El jefe ama los indicadores, siempre que los buenos se deban a su idea y los malos al equipo.",
+    "tags": ["oficina", "management", "metrics"]
+  },
+  {
+    "id": 18,
+    "text": "Los procesos están diseñados para que nada pueda salir mal… salvo el trabajo real.",
+    "tags": ["oficina", "proceso"]
+  },
+  {
+    "id": 19,
+    "text": "Cada cultura corporativa dice valorar la transparencia… hasta que aparece el primer problema serio.",
+    "tags": ["oficina", "cultura"]
+  },
+  {
+    "id": 20,
+    "text": "La política de 'no romper nada' suele romper todo a largo plazo.",
+    "tags": ["oficina", "cambio"]
+  },
+  {
+    "id": 21,
+    "text": "La idea de 'trabajo profundo' dura hasta el primer mensaje de chat con '@all'.",
+    "tags": ["oficina", "interrupciones"]
+  },
+  {
+    "id": 22,
+    "text": "El roadmap del año cambia por completo cada trimestre, pero el deadline final nunca se mueve.",
+    "tags": ["oficina", "roadmap"]
+  },
+  {
+    "id": 23,
+    "text": "Si algo funciona bien, se le agregan más requisitos hasta que deje de hacerlo.",
+    "tags": ["oficina", "scope-creep"]
+  },
+  {
+    "id": 24,
+    "text": "La frase 'esto nunca nadie lo pidió' aparece en cada retrospectiva.",
+    "tags": ["oficina", "requisitos"]
+  },
+  {
+    "id": 25,
+    "text": "Todo el mundo quiere innovación, pero nadie quiere cambiar su forma de trabajar.",
+    "tags": ["oficina", "innovacion"]
+  },
+  {
+    "id": 26,
+    "text": "El documento más importante del proyecto es siempre el que quedó en un mail viejo.",
+    "tags": ["oficina", "documentacion"]
+  },
+  {
+    "id": 27,
+    "text": "En cada compañía hay al menos un sistema que 'nadie toca' porque nadie sabe cómo anda.",
+    "tags": ["oficina", "legacy"]
+  },
+  {
+    "id": 28,
+    "text": "El slide con más colores suele ser el que menos cosas concretas dice.",
+    "tags": ["oficina", "presentaciones"]
+  },
+  {
+    "id": 29,
+    "text": "Cuando no se sabe qué hacer, se crea un nuevo comité.",
+    "tags": ["oficina", "burocracia"]
+  },
+  {
+    "id": 30,
+    "text": "El feedback 'hay que mejorar la comunicación' es la forma elegante de decir 'nadie entendió nada'.",
+    "tags": ["oficina", "comunicacion"]
+  },
+  {
+    "id": 31,
+    "text": "El manual de procedimientos solo se abre después de que algo salió mal.",
+    "tags": ["oficina", "proceso"]
+  },
+  {
+    "id": 32,
+    "text": "La herramienta que se eligió por 'estándar corporativo' nunca es la que el equipo quería usar.",
+    "tags": ["oficina", "herramientas"]
+  },
+  {
+    "id": 33,
+    "text": "Siempre hay un KPI que nadie sabe cómo se calcula, pero igual se reporta.",
+    "tags": ["oficina", "metrics"]
+  },
+  {
+    "id": 34,
+    "text": "Las decisiones se toman en tres minutos y se corrigen durante meses.",
+    "tags": ["oficina", "decisiones"]
+  },
+  {
+    "id": 35,
+    "text": "Cuando todo es prioridad uno, en realidad nada lo es.",
+    "tags": ["oficina", "prioridades"]
+  },
+  {
+    "id": 36,
+    "text": "El correo 'corto' de gerencia tiene más scroll que la documentación del proyecto.",
+    "tags": ["oficina", "comunicacion"]
+  },
+  {
+    "id": 37,
+    "text": "Los cambios más profundos se anuncian siempre un viernes a última hora.",
+    "tags": ["oficina", "anuncios"]
+  },
+  {
+    "id": 38,
+    "text": "La cultura de 'no buscar culpables' dura hasta que aparece el primer incidente grande.",
+    "tags": ["oficina", "cultura", "incidentes"]
+  },
+  {
+    "id": 39,
+    "text": "La palabra 'alineación' suele significar 'vamos a hacer lo que ya estaba decidido'.",
+    "tags": ["oficina", "politica"]
+  },
+  {
+    "id": 40,
+    "text": "En cada organización hay más organigramas que personas que los entiendan.",
+    "tags": ["oficina", "organizacion"]
+  }
+]

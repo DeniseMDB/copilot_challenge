@@ -1,0 +1,62 @@
+[
+  {
+    "contexto": "Estábamos deployando un hotfix",
+    "causa": "el token de CI/CD venció",
+    "consecuencia": "tuvimos que hacer rollback",
+    "recomendacion": "automatizar la rotación de secretos"
+  },
+  {
+    "contexto": "Lanzamiento de una nueva versión en producción",
+    "causa": "migración de base de datos incompleta",
+    "consecuencia": "pérdida temporal de datos y errores 500",
+    "recomendacion": "añadir migraciones transaccionales y pruebas previas"
+  },
+  {
+    "contexto": "Actualización de dependencias críticas",
+    "causa": "incompatibilidad de versión con librería externa",
+    "consecuencia": "bloqueo en el servicio y fallos en integración",
+    "recomendacion": "usar pruebas de integración en CI y bloquear versiones"
+  },
+  {
+    "contexto": "Escalado de infraestructura durante pico de tráfico",
+    "causa": "configuración de autoscaling mal parametrizada",
+    "consecuencia": "aumento de latencia y timeouts",
+    "recomendacion": "definir políticas de escalado basadas en métricas y hacer pruebas de carga"
+  },
+  {
+    "contexto": "Despliegue automático desde rama feature",
+    "causa": "se incluyó una variable de entorno sensible en el repositorio",
+    "consecuencia": "exposición de credenciales y necesidad de rotación",
+    "recomendacion": "usar un vault para secretos y escanear PRs en CI"
+  },
+  {
+    "contexto": "Hotfix urgente durante fin de semana",
+    "causa": "rollback manual mal ejecutado",
+    "consecuencia": "inconsistencias en la base de datos y downtime",
+    "recomendacion": "documentar y automatizar procedimientos de rollback seguros"
+  },
+  {
+    "contexto": "Deploy de una API interna",
+    "causa": "falta de pruebas de contrato con consumidores",
+    "consecuencia": "clientes internos fallando y errores de integración",
+    "recomendacion": "implementar pruebas de contrato y versionado de API"
+  },
+  {
+    "contexto": "Mantenimiento programado de la plataforma",
+    "causa": "script de migración con bug lógico",
+    "consecuencia": "tabla truncada y pérdida parcial de registros",
+    "recomendacion": "ejecutar migraciones en staging y tener respaldos automáticos"
+  },
+  {
+    "contexto": "Cambio de configuración de cache en producción",
+    "causa": "error humano al editar las claves de configuración",
+    "consecuencia": "cache inválida y carga excesiva en la base de datos",
+    "recomendacion": "aplicar cambios mediante pipelines y revisión por pares"
+  },
+  {
+    "contexto": "Refactor de autenticación",
+    "causa": "despliegue sin migrar tokens al nuevo esquema",
+    "consecuencia": "usuarios no pudieron iniciar sesión",
+    "recomendacion": "planificar migración de credenciales con feature flags y pruebas canary"
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "source": "Hofstadter",
+    "text": "Hofstadter dice que todo proyecto lleva el doble del tiempo, incluso si tenés en cuenta la Ley de Hofstadter.",
+    "tags": [
+      "tiempo",
+      "estimaciones",
+      "sprints",
+      "proyectos"
+    ],
+    "role": "dev"
+  },
+  {
+    "id": 2,
+    "source": "Hofstadter",
+    "text": "Una tarea simple siempre requiere una semana extra para descubrir por qué nunca fue tan simple.",
+    "tags": [
+      "estimaciones",
+      "simple",
+      "entregas"
+    ],
+    "role": "pm"
+  },
+  {
+    "id": 3,
+    "source": "Hofstadter",
+    "text": "Si algo parece que va a estar listo mañana, probablemente sea porque entendiste mal el alcance.",
+    "tags": [
+      "alcance",
+      "estimaciones",
+      "errores"
+    ],
+    "role": "dev"
+  },
+  {
+    "id": 4,
+    "source": "Hofstadter",
+    "text": "El tiempo que falta para entregar un feature es constante: siempre dos semanas.",
+    "tags": [
+      "tiempo",
+      "feature",
+      "scrum",
+      "deadlines"
+    ],
+    "role": "pm"
+  },
+  {
+    "id": 5,
+    "source": "Hofstadter",
+    "text": "Cuanto más cerca del release estés, más cosas descubrirás que no sabías que tenías que saber.",
+    "tags": [
+      "release",
+      "unknowns",
+      "devops"
+    ],
+    "role": "devops"
+  }
+]

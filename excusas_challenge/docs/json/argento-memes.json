@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "text": "Si en la daily nadie dice nada, es porque todavía no se cayó producción.",
+    "tags": ["argentina", "daily", "prod", "meme"]
+  },
+  {
+    "id": 2,
+    "text": "Nada más argentino que debuggear con el mate al lado y decir 'una más y lo dejo andando'.",
+    "tags": ["argentina", "mate", "debug"]
+  },
+  {
+    "id": 3,
+    "text": "El 'ya fue, mergealo así' es nuestro verdadero default de estrategia técnica.",
+    "tags": ["argentina", "git", "merge", "meme"]
+  },
+  {
+    "id": 4,
+    "text": "Feature chico, quilombo grande.",
+    "tags": ["argentina", "feature", "quilombo"]
+  },
+  {
+    "id": 5,
+    "text": "Si funciona en mi máquina y no en la tuya, claramente es un tema tuyo, papá.",
+    "tags": ["argentina", "env", "works-on-my-machine"]
+  },
+  {
+    "id": 6,
+    "text": "Deploy un viernes a la tarde es la versión tech de 'agarrame que salgo'.",
+    "tags": ["argentina", "deploy", "viernes"]
+  },
+  {
+    "id": 7,
+    "text": "El backlog está más inflado que precio de asado en fin de mes.",
+    "tags": ["argentina", "backlog", "economia"]
+  },
+  {
+    "id": 8,
+    "text": "Nada más porteño que renombrar el microservicio tres veces y seguir diciéndole como la primera versión.",
+    "tags": ["argentina", "microservices", "nombres"]
+  },
+  {
+    "id": 9,
+    "text": "Cuando salta un bug en producción, se activa modo selección: todos opinan, pocos patean al arco.",
+    "tags": ["argentina", "bug", "futbol"]
+  },
+  {
+    "id": 10,
+    "text": "Ese código está más parcheado que ruta después de una lluvia en Buenos Aires.",
+    "tags": ["argentina", "legacy", "parches"]
+  },
+  {
+    "id": 11,
+    "text": "Sprint sin cambio de alcance no es sprint argentino.",
+    "tags": ["argentina", "sprint", "scope-creep"]
+  },
+  {
+    "id": 12,
+    "text": "La call que arranca puntual en Argentina claramente es un ambiente de testing.",
+    "tags": ["argentina", "reuniones", "testing"]
+  },
+  {
+    "id": 13,
+    "text": "El 'lo vemos sobre la marcha' es nuestro patrón de diseño más usado.",
+    "tags": ["argentina", "design-patterns", "improvisacion"]
+  },
+  {
+    "id": 14,
+    "text": "Nada como arreglar un bug crítico diciendo 'no lo toques mucho, que está sensible'.",
+    "tags": ["argentina", "bugs", "legacy"]
+  },
+  {
+    "id": 15,
+    "text": "El documento funcional llega siempre después del primer release, como los trailers de las pelis.",
+    "tags": ["argentina", "documentacion", "release"]
+  },
+  {
+    "id": 16,
+    "text": "'Es fácil' en boca de un dev argentino significa 'lo hago, pero no me preguntes cómo'.",
+    "tags": ["argentina", "estimaciones", "meme"]
+  },
+  {
+    "id": 17,
+    "text": "Los ambientes son dev, qa, prod y 'el de fulano que nadie sabe qué es pero anda'.",
+    "tags": ["argentina", "env", "meme"]
+  },
+  {
+    "id": 18,
+    "text": "Cuando el pipeline se pone rojo, se activa modo grupo de WhatsApp familiar: todos escriben a la vez.",
+    "tags": ["argentina", "ci", "comunicacion"]
+  },
+  {
+    "id": 19,
+    "text": "Refactor en Argentina: tocar lo justo para que no explote y decir que quedó 'joya'.",
+    "tags": ["argentina", "refactor", "meme"]
+  },
+  {
+    "id": 20,
+    "text": "Los logs están más desordenados que fila de banco un lunes a la mañana.",
+    "tags": ["argentina", "logs", "meme"]
+  },
+  {
+    "id": 21,
+    "text": "Nada como un 'está en UAT' para saber que nadie lo probó en serio.",
+    "tags": ["argentina", "uat", "testing"]
+  },
+  {
+    "id": 22,
+    "text": "En Argentina el 'ahora veo' puede tardar entre 5 minutos y 3 sprints.",
+    "tags": ["argentina", "tiempos", "meme"]
+  },
+  {
+    "id": 23,
+    "text": "Standup de 15 minutos: 5 para saludar, 5 para quejarse y 5 para decir 'después lo charlamos'.",
+    "tags": ["argentina", "daily", "scrum"]
+  },
+  {
+    "id": 24,
+    "text": "Ese endpoint está más sobrecargado que tren en hora pico.",
+    "tags": ["argentina", "endpoint", "performance"]
+  },
+  {
+    "id": 25,
+    "text": "El Excel paralelo es el verdadero core banking de cualquier sistema argentino.",
+    "tags": ["argentina", "excel", "legacy"]
+  },
+  {
+    "id": 26,
+    "text": "Cuando dicen 'es solo un cambio de labels', aparece un flow nuevo, tres flags y dos meetings.",
+    "tags": ["argentina", "ui", "scope"]
+  },
+  {
+    "id": 27,
+    "text": "El PR chico entra rápido, el PR grande entra por insistencia.",
+    "tags": ["argentina", "pull-request", "meme"]
+  },
+  {
+    "id": 28,
+    "text": "El sistema está más atado con alambre que antena de TV de los 90.",
+    "tags": ["argentina", "legacy", "alambre"]
+  },
+  {
+    "id": 29,
+    "text": "Incidente P1 en Argentina: café, mate, silencio raro y alguien diciendo 'yo no toqué nada'.",
+    "tags": ["argentina", "incidente", "cultura"]
+  },
+  {
+    "id": 30,
+    "text": "Si el bug desaparece cuando compartís pantalla, es bug patriota: no le gusta quedar mal en público.",
+    "tags": ["argentina", "bugs", "meme"]
+  },
+  {
+    "id": 31,
+    "text": "Ese microservicio está tan acoplado que es más monolito que la 9 de Julio un piquete.",
+    "tags": ["argentina", "microservices", "acoplamiento"]
+  },
+  {
+    "id": 32,
+    "text": "La frase 'lo hacemos en otra iteración' es donde van a morir los features.",
+    "tags": ["argentina", "roadmap", "features"]
+  },
+  {
+    "id": 33,
+    "text": "Documentación técnica en Argentina: un Confluence, tres mails y un audio de WhatsApp.",
+    "tags": ["argentina", "documentacion", "whatsapp"]
+  },
+  {
+    "id": 34,
+    "text": "Cuando alguien dice 'yo me encargo', automáticamente nace un riesgo en el proyecto.",
+    "tags": ["argentina", "riesgos", "meme"]
+  },
+  {
+    "id": 35,
+    "text": "Si nadie sabe quién mantiene ese servicio, lo mantiene el destino.",
+    "tags": ["argentina", "ownership", "legacy"]
+  },
+  {
+    "id": 36,
+    "text": "Tenemos más entornos que feriados, pero igual testeamos en producción.",
+    "tags": ["argentina", "testing", "prod"]
+  },
+  {
+    "id": 37,
+    "text": "Ese sprint review parece más un asado: todos opinan, uno solo cocina.",
+    "tags": ["argentina", "review", "futbol-asado"]
+  },
+  {
+    "id": 38,
+    "text": "Nada tan argentino como decir 'queda para hardening' y no tocarlo nunca más.",
+    "tags": ["argentina", "hardening", "meme"]
+  },
+  {
+    "id": 39,
+    "text": "El backlog está más lleno de sueños que cuaderno de primer grado.",
+    "tags": ["argentina", "backlog", "meme"]
+  },
+  {
+    "id": 40,
+    "text": "Si el sistema anda lento, es porque lo están usando 'demasiado bien'.",
+    "tags": ["argentina", "performance", "meme"]
+  }
+]

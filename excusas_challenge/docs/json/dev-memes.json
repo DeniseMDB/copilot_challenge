@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "text": "No es un bug, es una feature con poca comunicación.",
+    "tags": ["meme", "bugs"]
+  },
+  {
+    "id": 2,
+    "text": "Mi framework favorito es el que no me tocó mantener en producción.",
+    "tags": ["meme", "frameworks"]
+  },
+  {
+    "id": 3,
+    "text": "Si funcionó a la primera, claramente olvidé algo.",
+    "tags": ["meme", "sospechoso"]
+  },
+  {
+    "id": 4,
+    "text": "Compilar no es gratis: te cobra en ansiedad.",
+    "tags": ["meme", "build"]
+  },
+  {
+    "id": 5,
+    "text": "Nada une más a un equipo que un deploy fallido en viernes.",
+    "tags": ["meme", "deploy", "viernes"]
+  },
+  {
+    "id": 6,
+    "text": "Ctrl+Z es mi plan de rollback favorito.",
+    "tags": ["meme", "rollback"]
+  },
+  {
+    "id": 7,
+    "text": "El ambiente local es un multiverso donde todo funciona.",
+    "tags": ["meme", "env"]
+  },
+  {
+    "id": 8,
+    "text": "DevOps es la ciencia de arreglar lo que desarrollo rompió y de romper lo que andaba por casualidad.",
+    "tags": ["meme", "devops"]
+  },
+  {
+    "id": 9,
+    "text": "Mi superpoder es romper producción leyendo el código con la mirada.",
+    "tags": ["meme", "prod"]
+  },
+  {
+    "id": 10,
+    "text": "Jira dice 'En progreso' pero mi alma dice 'En modo pánico'.",
+    "tags": ["meme", "jira"]
+  },
+  {
+    "id": 11,
+    "text": "Nada como un 'tiny refactor' que termina cambiando media base de código.",
+    "tags": ["meme", "refactor"]
+  },
+  {
+    "id": 12,
+    "text": "A veces leo mi código viejo y me pregunto quién me dejó programar sin supervisión.",
+    "tags": ["meme", "legacy"]
+  },
+  {
+    "id": 13,
+    "text": "Si no rompe los tests, no fue un cambio importante.",
+    "tags": ["meme", "tests"]
+  },
+  {
+    "id": 14,
+    "text": "El tiempo de build siempre es directamente proporcional a la urgencia del hotfix.",
+    "tags": ["meme", "build", "urgencia"]
+  },
+  {
+    "id": 15,
+    "text": "Mi roadmap personal es arreglar todos los TODO antes de que alguien los lea.",
+    "tags": ["meme", "todo"]
+  },
+  {
+    "id": 16,
+    "text": "El modo oscuro no mejora el código, pero por lo menos oculta la tristeza.",
+    "tags": ["meme", "dark-mode"]
+  },
+  {
+    "id": 17,
+    "text": "El verdadero pair programming es el dev y Stack Overflow.",
+    "tags": ["meme", "stack-overflow"]
+  },
+  {
+    "id": 18,
+    "text": "Nada más arriesgado que 'solo toqué un archivo de configuración'.",
+    "tags": ["meme", "config"]
+  },
+  {
+    "id": 19,
+    "text": "Commit chico, problema chico. Commit grande, nuevo monolito.",
+    "tags": ["meme", "git"]
+  },
+  {
+    "id": 20,
+    "text": "Docker arregla 'en mi máquina', pero crea 'en mi contenedor'.",
+    "tags": ["meme", "docker"]
+  },
+  {
+    "id": 21,
+    "text": "La nube no es magia, es solo la computadora de otro con tus problemas.",
+    "tags": ["meme", "cloud"]
+  },
+  {
+    "id": 22,
+    "text": "Microservicios: ahora tenés muchos lugares distintos donde algo puede fallar.",
+    "tags": ["meme", "microservices"]
+  },
+  {
+    "id": 23,
+    "text": "El log dice 'unexpected error'. Tranquilo, yo también.",
+    "tags": ["meme", "logs"]
+  },
+  {
+    "id": 24,
+    "text": "Nada genera más respeto que un 'force push' hecho con confianza.",
+    "tags": ["meme", "git", "force-push"]
+  },
+  {
+    "id": 25,
+    "text": "Debuggear es como ser detective de un crimen en el que vos mismo sos el culpable.",
+    "tags": ["meme", "debug"]
+  },
+  {
+    "id": 26,
+    "text": "Mi lenguaje favorito es aquel en el que aún no leí mi propio código de hace un año.",
+    "tags": ["meme", "lenguajes"]
+  },
+  {
+    "id": 27,
+    "text": "El feature está listo cuando compila, pasa tests, y el PO deja de hacer preguntas raras.",
+    "tags": ["meme", "feature"]
+  },
+  {
+    "id": 28,
+    "text": "CI significa 'Constantemente Inestable' en días complicados.",
+    "tags": ["meme", "ci"]
+  },
+  {
+    "id": 29,
+    "text": "Nada como un 'quick fix' para crear un 'long term issue'.",
+    "tags": ["meme", "hotfix"]
+  },
+  {
+    "id": 30,
+    "text": "PR chico: nadie lo mira. PR gigante: todos comentan tarde.",
+    "tags": ["meme", "pull-request"]
+  },
+  {
+    "id": 31,
+    "text": "Los mensajes de error nunca explican el problema, pero sí tu estado emocional.",
+    "tags": ["meme", "errores"]
+  },
+  {
+    "id": 32,
+    "text": "El estado natural de un sistema en producción es 'funciona, pero no preguntes cómo'.",
+    "tags": ["meme", "prod"]
+  },
+  {
+    "id": 33,
+    "text": "Nada es tan permanente como un parche temporal que funcionó una vez.",
+    "tags": ["meme", "workaround"]
+  },
+  {
+    "id": 34,
+    "text": "Si tu código necesita un comentario para entenderse, el comentario también.",
+    "tags": ["meme", "clean-code"]
+  },
+  {
+    "id": 35,
+    "text": "El mejor momento para leer la especificación era antes de programar, el segundo mejor es nunca.",
+    "tags": ["meme", "spec"]
+  },
+  {
+    "id": 36,
+    "text": "Nada como ver 'All checks have passed' para sentir una falsa sensación de seguridad.",
+    "tags": ["meme", "ci", "checks"]
+  },
+  {
+    "id": 37,
+    "text": "El código legacy es ese que ya no sabés si tenés miedo de tocar o de dejar como está.",
+    "tags": ["meme", "legacy"]
+  },
+  {
+    "id": 38,
+    "text": "El verdadero full stack es el que arregla el bug y además explica el incidente en la call.",
+    "tags": ["meme", "fullstack"]
+  },
+  {
+    "id": 39,
+    "text": "Si el plan tiene más post-its que líneas de código, eso también es arquitectura.",
+    "tags": ["meme", "arquitectura"]
+  },
+  {
+    "id": 40,
+    "text": "A veces el mejor refactor es admitir que hay que borrarlo y empezar de nuevo.",
+    "tags": ["meme", "refactor"]
+  }
+]

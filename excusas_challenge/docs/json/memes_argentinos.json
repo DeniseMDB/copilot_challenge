@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "text": "Se cayó el deploy porque Mercurio está retrógrado… y porque nadie revisó el YAML.",
+    "tags": [
+      "argentina",
+      "deploy",
+      "infra",
+      "viernes"
+    ],
+    "role": "devops"
+  },
+  {
+    "id": 2,
+    "text": "Funciona en mi máquina. En la tuya… y bueno, viste cómo es.",
+    "tags": [
+      "argentina",
+      "debug",
+      "dev"
+    ],
+    "role": "dev"
+  },
+  {
+    "id": 3,
+    "text": "Le pedimos al servidor que aguante un poquito más. Nos respondió '¿aguante qué?'",
+    "tags": [
+      "argentina",
+      "servidores",
+      "infra"
+    ],
+    "role": "devops"
+  },
+  {
+    "id": 4,
+    "text": "El backlog crece más rápido que la inflación.",
+    "tags": [
+      "argentina",
+      "pm",
+      "dev",
+      "backlog"
+    ],
+    "role": "pm"
+  },
+  {
+    "id": 5,
+    "text": "El build tarda lo mismo que hacer un trámite en ANSES.",
+    "tags": [
+      "argentina",
+      "build",
+      "ci"
+    ],
+    "role": "dev"
+  },
+  {
+    "id": 6,
+    "text": "Se rompió la VPN justo cuando estabas por entregar. Clásico movimiento argentino.",
+    "tags": [
+      "argentina",
+      "vpn",
+      "remoto"
+    ],
+    "role": "dev"
+  },
+  {
+    "id": 7,
+    "text": "La demo falló porque el universo tiene sentido del humor.",
+    "tags": [
+      "argentina",
+      "demo",
+      "bugs"
+    ],
+    "role": "dev"
+  }
+]
